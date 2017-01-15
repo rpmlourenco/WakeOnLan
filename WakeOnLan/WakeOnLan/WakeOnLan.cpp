@@ -35,7 +35,7 @@ int main(int argc, char* argv[])
 		&dstaddr[0], &dstaddr[1], &dstaddr[2], &dstaddr[3], &dstaddr[4], &dstaddr[5]);
 	if (i != 6)
 	{
-		fprintf(stderr, "Invalid MAC Adresse! MAC Adresse must be like this: 00-D0-4C-BF-52-BA");
+		fprintf(stderr, "Invalid MAC Adresse! MAC Adresse must be like this: 30-85-A9-EB-FB-E1");
 		return 1;
 	}
 
